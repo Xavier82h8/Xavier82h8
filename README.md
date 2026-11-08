@@ -54,7 +54,7 @@ Construyo la parte que no se ve: **APIs, autenticación, bases de datos y la inf
 
 ## Experiencia
 
-**Desarrollador Web (Servicio Social)** · Gobierno del Estado de Sonora · 2025
+**Desarrollador Web (Servicio Social)** · Gobierno del Estado de Sonora · 2025<br>
 Login con Google y Apple, integración de métodos de pago y conexión de la base de datos con el frontend en una plataforma de alcance estatal.
 
 ## Ahora mismo
