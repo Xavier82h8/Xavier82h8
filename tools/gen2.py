@@ -7,7 +7,7 @@ from xml.sax.saxutils import escape as esc
 sys.path.insert(0, os.path.dirname(__file__))
 import gen  # reutiliza THEMES, MONO, SANS y PROJECTS (y escribe header/cards base)
 
-OUT = sys.argv[1]
+OUT = sys.argv[1] if __name__ == "__main__" else None
 THEMES, MONO, SANS = gen.THEMES, gen.MONO, gen.SANS
 REDUCED = "@media (prefers-reduced-motion:reduce){*{animation:none!important}}"
 
@@ -199,11 +199,12 @@ def write(name, content):
         fh.write(content)
 
 
-write("banner.svg", banner())
-write("footer.svg", footer())
-for t in THEMES:
-    write(f"typing-{t}.svg", typing(t))
-    write(f"numbers-{t}.svg", numbers(t))
-    for p in gen.PROJECTS:
-        write(f"{p['slug']}-{t}.svg", card(p, t))
-print("ok")
+if __name__ == "__main__":
+    write("banner.svg", banner())
+    write("footer.svg", footer())
+    for t in THEMES:
+        write(f"typing-{t}.svg", typing(t))
+        write(f"numbers-{t}.svg", numbers(t))
+        for p in gen.PROJECTS:
+            write(f"{p['slug']}-{t}.svg", card(p, t))
+    print("ok")

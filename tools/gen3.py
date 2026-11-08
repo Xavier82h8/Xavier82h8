@@ -13,7 +13,7 @@ sys.path.insert(0, os.path.dirname(__file__))
 import gen   # noqa: E402  (escribe la versión base)
 import gen2  # noqa: E402  (escribe la versión animada)
 
-OUT = sys.argv[1]
+OUT = sys.argv[1] if __name__ == "__main__" else None
 THEMES, MONO, SANS = gen.THEMES, gen.MONO, gen.SANS
 
 GLASS = {
@@ -160,11 +160,12 @@ def write(name, content):
         fh.write(content)
 
 
-for t in THEMES:
-    write(f"header-{t}.svg", terminal(t))
-    write(f"typing-{t}.svg", spotlight(t))
-    write(f"numbers-{t}.svg", glassify(gen2.numbers(t), t, 900, 150,
-                                       [("teal", 60, 150, 110), ("amber", 470, 0, 90), ("violet", 860, 140, 110)]))
-    for p in gen.PROJECTS:
-        write(f"{p['slug']}-{t}.svg", glassify(gen2.card(p, t), t, 900, 200, CARD_BLOBS[p["slug"]]))
-print("ok")
+if __name__ == "__main__":
+    for t in THEMES:
+        write(f"header-{t}.svg", terminal(t))
+        write(f"typing-{t}.svg", spotlight(t))
+        write(f"numbers-{t}.svg", glassify(gen2.numbers(t), t, 900, 150,
+                                           [("teal", 60, 150, 110), ("amber", 470, 0, 90), ("violet", 860, 140, 110)]))
+        for p in gen.PROJECTS:
+            write(f"{p['slug']}-{t}.svg", glassify(gen2.card(p, t), t, 900, 200, CARD_BLOBS[p["slug"]]))
+    print("ok")

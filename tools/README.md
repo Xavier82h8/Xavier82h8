@@ -1,7 +1,7 @@
 # Generadores de assets
 
 ```sh
-python tools/gen3.py assets
+python tools/gen4.py assets
 ```
 
-Regenera todos los SVG de `assets/`. `gen3.py` importa `gen2.py` y `gen.py` y aplica el estilo vidrio y la terminal tipo macOS.
+Genera los SVG nocturnos de `assets/` (pétalos sobre negro, dos paletas: ámbar y medianoche). `gen4.py` reutiliza funciones de `gen.py` y `gen2.py`; `gen3.py` es la versión anterior con vidrio claro/oscuro.

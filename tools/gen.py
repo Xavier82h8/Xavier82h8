@@ -3,8 +3,9 @@ import os
 import sys
 from xml.sax.saxutils import escape as esc
 
-OUT = sys.argv[1]
-os.makedirs(OUT, exist_ok=True)
+OUT = sys.argv[1] if __name__ == "__main__" else None
+if OUT:
+    os.makedirs(OUT, exist_ok=True)
 
 THEMES = {
     "dark": dict(bg="#0F1A24", bar="#142330", border="#24384A", fg="#D3DEE7",
@@ -113,10 +114,11 @@ def card(p, t):
     return "\n".join(o)
 
 
-for t in THEMES:
-    with open(os.path.join(OUT, f"header-{t}.svg"), "w", encoding="utf-8") as fh:
-        fh.write(header(t))
-    for p in PROJECTS:
-        with open(os.path.join(OUT, f"{p['slug']}-{t}.svg"), "w", encoding="utf-8") as fh:
-            fh.write(card(p, t))
-print("ok")
+if __name__ == "__main__":
+    for t in THEMES:
+        with open(os.path.join(OUT, f"header-{t}.svg"), "w", encoding="utf-8") as fh:
+            fh.write(header(t))
+        for p in PROJECTS:
+            with open(os.path.join(OUT, f"{p['slug']}-{t}.svg"), "w", encoding="utf-8") as fh:
+                fh.write(card(p, t))
+    print("ok")
