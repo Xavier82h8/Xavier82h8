@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="372" viewBox="0 0 900 372" role="img" aria-label="Javier Karim, Backend Developer en Hermosillo, México. Abierto a puestos Backend Jr.">
+<style>
+text{font-family:ui-monospace, SFMono-Regular, 'Cascadia Code', 'JetBrains Mono', Menlo, Consolas, monospace;}
+.cmd{clip-path:inset(0 100% 0 0);animation:type 1.1s steps(31,end) .3s forwards}
+.ln{opacity:0;animation:in .35s ease-out forwards}
+.cur{animation:blink 1.1s steps(1,end) infinite}
+@keyframes type{to{clip-path:inset(0 0 0 0)}}
+@keyframes in{from{opacity:0;transform:translateY(4px)}to{opacity:1;transform:none}}
+@keyframes blink{50%{opacity:0}}
+@media (prefers-reduced-motion:reduce){.cmd{clip-path:none;animation:none}.ln{opacity:1;animation:none}.cur{animation:none}}
+</style>
+<rect x="0.5" y="0.5" width="899" height="371" rx="12" fill="#FBFCFD" stroke="#D3DDE5"/>
+<path d="M0.5 12.5a12 12 0 0 1 12-12h875a12 12 0 0 1 12 12v23h-899z" fill="#EEF3F7"/>
+<line x1="0.5" y1="36" x2="899.5" y2="36" stroke="#D3DDE5"/>
+<text x="24" y="23" font-size="12.5" fill="#5B6E7D">javier@hermosillo: ~</text>
+<text x="876" y="23" font-size="12.5" fill="#5B6E7D" text-anchor="end">bash</text>
+<text class="cmd" x="32" y="76" font-size="15"><tspan fill="#A85F00" font-weight="700">$ </tspan><tspan fill="#17242F">systemctl status javier-karim</tspan></text>
+<text class="ln" style="animation-delay:1.55s" x="32" y="118" font-size="22" xml:space="preserve"><tspan fill="#17803D">● </tspan><tspan fill="#17242F" font-weight="700">javier-karim.service</tspan><tspan fill="#5B6E7D"> - Backend Developer</tspan></text>
+<text class="ln" style="animation-delay:1.68s" x="32" y="152" font-size="14" xml:space="preserve"><tspan fill="#5B6E7D">     Loaded: </tspan><tspan fill="#17242F">loaded (Ingeniería en Sistemas Computacionales, ITH; 8.º semestre)</tspan></text>
+<text class="ln" style="animation-delay:1.81s" x="32" y="178" font-size="14" xml:space="preserve"><tspan fill="#5B6E7D">     Active: </tspan><tspan fill="#17803D" font-weight="700">active (running)</tspan><tspan fill="#17242F"> desde Hermosillo, Sonora, México</tspan></text>
+<text class="ln" style="animation-delay:1.94s" x="32" y="204" font-size="14" xml:space="preserve"><tspan fill="#5B6E7D">      Tasks: </tspan><tspan fill="#17242F">3 (franken-panel, musa-ai, musaaudio)</tspan></text>
+<text class="ln" style="animation-delay:2.07s" x="32" y="230" font-size="14" xml:space="preserve"><tspan fill="#5B6E7D">     CGroup: </tspan><tspan fill="#17242F">APIs · autenticación · bases de datos · Linux · Docker · CI/CD</tspan></text>
+<text class="ln" style="animation-delay:2.20s" x="32" y="256" font-size="14" xml:space="preserve"><tspan fill="#5B6E7D">       Docs: </tspan><tspan fill="#A85F00">linkedin.com/in/javier-karim</tspan></text>
+<text class="ln" style="animation-delay:2.33s" x="32" y="300" font-size="14" xml:space="preserve"><tspan fill="#5B6E7D">javier-karim[1]: </tspan><tspan fill="#17242F">Abierto a puestos Backend Jr, en Hermosillo o remoto. Inglés B2.</tspan></text>
+<text class="ln" style="animation-delay:2.46s" x="32" y="340" font-size="15"><tspan fill="#A85F00" font-weight="700">$ </tspan><tspan class="cur" fill="#17242F">▍</tspan></text>
+</svg>

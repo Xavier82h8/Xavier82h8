@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="200" viewBox="0 0 900 200" role="img" aria-label="MUSA-AI: Tutor musical con IA que escribe partituras reales, con un modelo propio afinado con QLoRA.">
+<rect x="0.5" y="0.5" width="899" height="199" rx="12" fill="#0F1A24" stroke="#24384A"/>
+<text x="32" y="56" font-family="'Segoe UI', system-ui, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="700" fill="#D3DEE7">MUSA-AI</text>
+<text x="32" y="88" font-family="'Segoe UI', system-ui, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="15.5" fill="#7F93A3">Tutor musical con IA que escribe partituras reales,</text>
+<text x="32" y="110" font-family="'Segoe UI', system-ui, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="15.5" fill="#7F93A3">con un modelo propio afinado con QLoRA.</text>
+<text x="32" y="150" font-family="ui-monospace, SFMono-Regular, 'Cascadia Code', 'JetBrains Mono', Menlo, Consolas, monospace" font-size="13" fill="#F2A93B">caddy → fastapi (SSE) → cola redis → llama.cpp</text>
+<text x="32" y="176" font-family="ui-monospace, SFMono-Regular, 'Cascadia Code', 'JetBrains Mono', Menlo, Consolas, monospace" font-size="12.5" fill="#7F93A3">Python · FastAPI · PostgreSQL · Redis · Prometheus · Rust</text>
+<line x1="560" y1="28" x2="560" y2="172" stroke="#24384A"/>
+<rect x="584" y="49" width="7" height="7" rx="1.5" fill="#F2A93B"/>
+<text x="602" y="58" font-family="'Segoe UI', system-ui, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="15" fill="#D3DEE7">OIDC + PKCE, Apple, sin contraseña</text>
+<rect x="584" y="79" width="7" height="7" rx="1.5" fill="#F2A93B"/>
+<text x="602" y="88" font-family="'Segoe UI', system-ui, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="15" fill="#D3DEE7">Failover entre nodos de inferencia</text>
+<rect x="584" y="109" width="7" height="7" rx="1.5" fill="#F2A93B"/>
+<text x="602" y="118" font-family="'Segoe UI', system-ui, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="15" fill="#D3DEE7">Dataset v7: 47 153 ejemplos</text>
+<circle cx="589" cy="172" r="4" fill="#4CC38A"/>
+<text x="602" y="176" font-family="'Segoe UI', system-ui, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="13" fill="#7F93A3">Ficha técnica pública · código privado</text>
+</svg>
