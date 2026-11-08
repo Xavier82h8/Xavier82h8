@@ -1,9 +1,10 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="900" height="200" viewBox="0 0 900 200" role="img" aria-label="MusaAudio: Música de escritorio y web con búsqueda unificada en YouTube, Spotify y archivos locales.">
+<style>.pk{animation:pk 3.2s cubic-bezier(.45,0,.55,1) infinite}@keyframes pk{0%{transform:translateX(0);opacity:0}8%{opacity:1}92%{opacity:1}100%{transform:translateX(370.4px);opacity:0}}.dot{transform-box:fill-box;transform-origin:center;animation:pulse 2.4s ease-in-out infinite}@keyframes pulse{50%{transform:scale(1.6);opacity:.45}}@media (prefers-reduced-motion:reduce){.pk,.dot{animation:none}}</style>
 <rect x="0.5" y="0.5" width="899" height="199" rx="12" fill="#FBFCFD" stroke="#D3DDE5"/>
 <text x="32" y="56" font-family="'Segoe UI', system-ui, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="700" fill="#17242F">MusaAudio</text>
 <text x="32" y="88" font-family="'Segoe UI', system-ui, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="15.5" fill="#5B6E7D">Música de escritorio y web con búsqueda unificada</text>
 <text x="32" y="110" font-family="'Segoe UI', system-ui, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="15.5" fill="#5B6E7D">en YouTube, Spotify y archivos locales.</text>
-<text x="32" y="150" font-family="ui-monospace, SFMono-Regular, 'Cascadia Code', 'JetBrains Mono', Menlo, Consolas, monospace" font-size="13" fill="#A85F00">git push → GitHub Actions → docker → nginx (TLS)</text>
+<text x="32" y="150" font-family="ui-monospace, SFMono-Regular, 'Cascadia Code', 'JetBrains Mono', Menlo, Consolas, monospace" font-size="13" fill="#A85F00" textLength="374.4" lengthAdjust="spacingAndGlyphs">git push → GitHub Actions → docker → nginx (TLS)</text><line x1="32" y1="158" x2="406.4" y2="158" stroke="#D3DDE5"/><rect class="pk" x="28" y="156.5" width="12" height="3" rx="1.5" fill="#A85F00"/>
 <text x="32" y="176" font-family="ui-monospace, SFMono-Regular, 'Cascadia Code', 'JetBrains Mono', Menlo, Consolas, monospace" font-size="12.5" fill="#5B6E7D">TypeScript · Express · Prisma · Jest · Docker · Tauri</text>
 <line x1="560" y1="28" x2="560" y2="172" stroke="#D3DDE5"/>
 <rect x="584" y="49" width="7" height="7" rx="1.5" fill="#A85F00"/>
@@ -12,6 +13,6 @@
 <text x="602" y="88" font-family="'Segoe UI', system-ui, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="15" fill="#17242F">JWT, bcrypt y rate limiting</text>
 <rect x="584" y="109" width="7" height="7" rx="1.5" fill="#A85F00"/>
 <text x="602" y="118" font-family="'Segoe UI', system-ui, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="15" fill="#17242F">Caché con TTL y métricas por ruta</text>
-<circle cx="589" cy="172" r="4" fill="#17803D"/>
+<circle class="dot" cx="589" cy="172" r="4" fill="#17803D"/>
 <text x="602" y="176" font-family="'Segoe UI', system-ui, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="13" fill="#5B6E7D">Ficha técnica pública · código privado</text>
 </svg>
